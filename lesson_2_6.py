@@ -4,9 +4,9 @@ for clothes_index in range(2):
     name = input('Введите наменование товара: ')
     colour = input('Введите цвет товара: ')
     size = input('Введите размер: ')
-    preis = input('Введите цену: ')
-    is_available = bool(input('Наличие: '))
-    clothes = {'name': name, 'colour': colour, 'size': size, 'preis': preis, 'is_available': is_available}
+    price = input('Введите цену: ')
+    is_available = bool(int(input('Наличие: ')))
+    clothes = {'name': name, 'colour': colour, 'size': size, 'price': price, 'is_available': is_available}
 
     shop.append(clothes)
 

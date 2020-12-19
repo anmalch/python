@@ -14,10 +14,9 @@ class Matrix:
         self.matrix = matrix
 
     def __str__(self):
-        i = 0
         s = ''
-        for i in range(len(self.matrix)):
-            s = s + f'{self.matrix[i]}\n'
+        for row in self.matrix:
+            s = s + f'{row}\n'
         return s
 
 

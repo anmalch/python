@@ -13,7 +13,7 @@ with open('third_salary.txt', 'w') as f:
     for name, salary in salary_dict.items():
         f.write(f'{name} {salary}\n')
 
-# кто из сотруднико имеет оклад меньше 20000
+# кто из сотруднико иммет оклад меньше 20000
 name_result = []
 for name, salary in salary_dict.items():
     if int(salary) < 20000:

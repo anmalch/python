@@ -11,7 +11,7 @@
 from itertools import cycle
 
 
-sentence = ["Hi", "Ksenia"]
+sentence= ["Hi", "Ksenia"]
 iter = cycle(sentence)
 
 print(next(iter))
